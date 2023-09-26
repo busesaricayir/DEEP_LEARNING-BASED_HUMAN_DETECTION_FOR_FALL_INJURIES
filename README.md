@@ -6,18 +6,18 @@ Falls are unforeseeable events that can lead to severe consequences such as inju
    Therefore, our study aims to develop a system that employs deep learning using the dataset we have prepared, aiming to detect potential fall incidents within elderly care centers. The primary goal is to decrease the intervention time for injuries resulting from falls among the elderly, and, through an application that facilitates patient access, provide real-time information to caregivers regarding accident victims.
 
 
-# YOLOv7
+## YOLOv7
    YOLOv7 is an advanced real-time object detection algorithm compared to previous versions in terms of speed and accuracy. As shown in the photo below, YOLOv7 achieves this by having fewer parameters than other YOLO versions, making it capable of operating efficiently with low computational power. To enhance detection performance and accuracy in YOLOv7's design, significant changes have been made to create specific modules. The Extended Efficient Layer Aggregation Network (E-ELAN) is integrated into the CSPDarknet backbone of YOLOv7. The Efficient Layer Aggregation Network (ELAN) is designed to efficiently construct networks by following the longest short gradient path. E-ELAN is a modified version of this structure. YOLOv7 incorporates the pre-processing method from YOLOv5. For identifying sections (modules) within the overall model that require re-parameterization, YOLOv7 employs gradient flow propagation methods. In general, YOLOv7 employs a more effective feature integration method, resulting in more accurate object detection performance. Consequently, YOLOv7 demands less costly hardware for computational processing compared to other deep learning models. It can be trained much faster on small datasets without pre-trained weights.
 
 
 <p align="center"><img src="img/yolov7.png" alt="alt" width="750" align="center"/></p>
 
-# YOLOv8
+## YOLOv8
    The YOLOv8 model architecture, given in the photo below, introduces an anchor-free approach, which means it no longer relies on predicting an object's distance from predefined anchor boxes. Instead, it directly estimates the object's center. This innovation reduces the number of predicted bounding boxes, leading to a more efficient Non-Maximum Suppression (NMS) process during post-processing, which is typically a complex step for filtering detections after inference. In terms of model variations, there are five distinct architectures (YOLOv8n, YOLOv8s, YOLOv8m, YOLOv8l, and YOLOv8x), each designed for specific tasks like object identification, segmentation, and classification. Among these, YOLOv8x stands out for its high precision in detection but sacrifices speed compared to the others. On the opposite end of the spectrum, YOLOv8 Nano is the fastest and most compact model in terms of size. This innovation shows great potential for enhancing object detection tasks and delving into the intricacies of the various YOLOv8 iterations to identify the most suitable model for specific applications.
    
 <p align="center"><img src="img/yolov8.png" alt="alt" width="500" align="center"/></p>
 
-# CONCLUSION
+## CONCLUSION
    
    Based on the available data, it is evident that falls are one of the most common causes of injuries spanning all age groups. Despite their seemingly harmless nature, falls can lead to injuries with far-reaching consequences, which are exacerbated by underlying health conditions. This impact is particularly pronounced among the elderly, for whom such accidents occur alarmingly frequently and result in substantial outcomes. As a result, real-time fall detection systems play a critical role in reducing the severity of resulting injuries. The proposed project aims to be field-tested in elderly care centers to assist individuals following a fall incident swiftly. To achieve this goal, the project utilizes the YOLOv7 and YOLOv8 architectures, striving to bring innovation to the field compared to previous studies.
 
