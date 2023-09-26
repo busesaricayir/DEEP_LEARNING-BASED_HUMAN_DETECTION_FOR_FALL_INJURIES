@@ -4,4 +4,10 @@ Falls are among the most common causes of injuries, regardless of age. Falling m
 
 ![Alt text](img/yolov7.png)
 
+![Alt text](img/yolov8.png)
+
+![Alt text](img/graf.png)
+
+![Alt text](img/cikti.png)
+
 by Esmanur ALICAN and Buse SARICAYIR
