@@ -23,7 +23,7 @@ Falls are unforeseeable events that can lead to severe consequences such as inju
 
 <p align="center"> <img src="img/output.png" alt="alt" width="500" /> </p>
 
-As a result of this study, the mAP values in the mAP50 plot for YOLOv8 hover around 0.77, while the corresponding metric peaks at 0.81 in the mAP50 plot for YOLOv7. However, this is not the case for the mAP50-95 plots, where YOLOv7 reaches the highest mAP value of 0.495 and is slightly eclipsed by YOLOv8 with 0.454. The precision and recall plots underline the differences between the algorithms, with YOLOv8 showing superior values compared to YOLOv7.
+   As a result of this study, the mAP values in the mAP50 plot for YOLOv8 hover around 0.77, while the corresponding metric peaks at 0.81 in the mAP50 plot for YOLOv7. However, this is not the case for the mAP50-95 plots, where YOLOv7 reaches the highest mAP value of 0.495 and is slightly eclipsed by YOLOv8 with 0.454. The precision and recall plots underline the differences between the algorithms, with YOLOv8 showing superior values compared to YOLOv7.
 
 
 
