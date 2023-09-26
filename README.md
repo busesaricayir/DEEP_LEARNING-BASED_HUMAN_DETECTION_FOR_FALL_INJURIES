@@ -12,6 +12,10 @@ Falls are unforeseeable events that can lead to severe consequences such as inju
 
 <p align="center"><img src="img/yolov7.png" alt="alt" width="750" align="center"/></p>
 
+# YOLOv8
+   The YOLOv8 model architecture, given in Figure 2, introduces an anchor-free approach, which means it no longer relies on predicting an object's distance from predefined anchor boxes. Instead, it directly estimates the object's center. This innovation reduces the number of predicted bounding boxes, leading to a more efficient Non-Maximum Suppression (NMS) process during post-processing, which is typically a complex step for filtering detections after inference. In terms of model variations, there are five distinct architectures (YOLOv8n, YOLOv8s, YOLOv8m, YOLOv8l, and YOLOv8x), each designed for specific tasks like object identification, segmentation, and classification. Among these, YOLOv8x stands out for its high precision in detection but sacrifices speed compared to the others. On the opposite end of the spectrum, YOLOv8 Nano is the fastest and most compact model in terms of size. This innovation shows great potential for enhancing object detection tasks and delving into the intricacies of the various YOLOv8 iterations to identify the most suitable model for specific applications.
+
+
 <p align="center"><img src="img/yolov8.png" alt="alt" width="500" align="center"/></p>
 
 <p align="center"><img src="img/graph.png" alt="alt" width="500" align="center"/></p>
